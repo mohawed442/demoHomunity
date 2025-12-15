@@ -12,8 +12,26 @@ body {
   background-color: var(--backGroundColor);
   color: var(--colorText);
 }
+/* nav */
 
 .web-icon {
   width: 60px;
   height: 60px;
+}
+
+section div img {
+  width: 100%;
+  height: auto;
+}
+
+section div div p:first-child{
+font-size: 60px;
+}
+
+section div div p:nth-child(2){
+font-size: 90px;
+}
+
+section div div button span{
+  font-size: 40px;
 }
