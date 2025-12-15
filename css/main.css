@@ -1,0 +1,14 @@
+:root{
+    --font : "Jaldi", sans-serif;
+    --backGroundColor : #FFFFFF;
+    --colorText : #000000;
+    --colorBotton : #6D7E70;
+    --colorButtonHover : #000000 ;
+    --backgroundLastsction : #6D7E70;
+}
+
+body{
+    font-family: var(--font);
+    background-color: var(--backGroundColor);
+    color: var(--colorText);
+}
