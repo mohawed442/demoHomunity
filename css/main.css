@@ -12,3 +12,23 @@ body{
     background-color: var(--backGroundColor);
     color: var(--colorText);
 }
+.section {
+  min-height: 100vh;
+  background-color: #7b8f82;
+}
+
+.section-img {
+  width: 90%;
+  margin-left: 20px;
+}
+
+.list li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.list li::before {
+  content: "▲";
+  margin-right: 10px;
+  color: black;
+}
