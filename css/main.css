@@ -14,7 +14,7 @@ body{
 }
 .section {
   min-height: 100vh;
-  background-color: #6D7E70;
+  background-color: var(--backgroundLastsction);
 }
 
 .section-img {
