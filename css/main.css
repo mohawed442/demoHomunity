@@ -12,9 +12,7 @@ body{
     font-family: var(--font);
     background-color: var(--backGroundColor);
     color: var(--colorText);
-<<<<<<< HEAD
 
-    
     
 }
 
@@ -194,8 +192,8 @@ section div div button span{
   font-size: 40px;
 }
 
-=======
-}
+
+
 .section {
   min-height: 100vh;
   background-color: var(--backgroundLastsction);
@@ -215,5 +213,4 @@ section div div button span{
   content: "▲";
   margin-right: 10px;
   color: black;
-}
->>>>>>> menna
+ } 
