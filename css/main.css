@@ -1,3 +1,4 @@
+ٍ
 :root{
     --font : "Jaldi", sans-serif;
     --backGroundColor : #FFFFFF;
@@ -11,38 +12,10 @@ body{
     font-family: var(--font);
     background-color: var(--backGroundColor);
     color: var(--colorText);
-}:root{
-    --font : "Jaldi", sans-serif;
-    --backGroundColor : #FFFFFF;
-    --colorText : #000000;
-    --colorBotton : #6D7E70;
-    --colorButtonHover : #000000 ;
-    --backgroundLastsction : #6D7E70;
+
+    
+    
 }
-
-body{
-    font-family: var(--font);
-    background-color: var(--backGroundColor);
-    color: var(--colorText);
-}
-
-:root{
-    --font : "Jaldi", sans-serif;
-    --backGroundColor : #FFFFFF;
-    --colorText : #000000;
-    --colorBotton : #6D7E70;
-    --colorButtonHover : #000000 ;
-    --backgroundLastsction : #6D7E70;
-}
-
-body{
-    font-family: var(--font);
-    background-color: var(--backGroundColor);
-    color: var(--colorText);
-}
-
-
-
 
 /*  start tabs  */
 
@@ -68,8 +41,15 @@ body{
 
 .tab.active {
   color: #030303;
-  font-weight: 400;
+  --font: "Jaldi", sans-serif;
+  --backGroundColor: #ffffff;
+  --colorText: #000000;
+  --colorBotton: #6d7e70;
+  --colorButtonHover: #000000;
+  --backgroundLastsction: #6d7e70;
 }
+
+
 /* End tabs  */
 /*  product */
 
@@ -184,7 +164,32 @@ box-shadow: 0px 4px 4px rgba(4, 4, 4, 0.65);
   cursor: pointer;
 }
 /* End  pagination container */
+body {
+  font-family: var(--font);
+  background-color: var(--backGroundColor);
+  color: var(--colorText);
+}
+/* nav */
 
+.web-icon {
+  width: 60px;
+  height: 60px;
+}
 
+section div img {
+  width: 100%;
+  height: auto;
+}
 
+section div div p:first-child{
+font-size: 60px;
+}
+
+section div div p:nth-child(2){
+font-size: 90px;
+}
+
+section div div button span{
+  font-size: 40px;
+}
 

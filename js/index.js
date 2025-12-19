@@ -1,3 +1,4 @@
+
 //  taps
   let tabs = document.querySelectorAll('.tab');
   let products = document.querySelectorAll('.product');
@@ -28,3 +29,13 @@ pages.forEach(page => {
     page.classList.add('active');
   });
 });
+//Israa
+let btn = document.querySelector(".start-btn");
+
+btn.addEventListener("click", () => {
+  window.scrollBy({
+    top: 1000,
+    behavior: "smooth"
+  });
+});
+
