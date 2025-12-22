@@ -196,7 +196,7 @@ section div div button span{
 
 .section {
   min-height: 100vh;
-  background-color:var(--colorBotton);
+  background-color:var(--backgroundLastsction);
 }
 
 .section-img {
