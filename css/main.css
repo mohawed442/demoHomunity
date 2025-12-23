@@ -215,3 +215,40 @@ section div div button span{
   margin-right: 10px;
   color: black;
  } 
+ 
+ \\nada
+ .custom-card {
+  border: 1px solid #6D7E70 !important;
+  background-color: transparent !important; 
+  border-radius: 15px;
+  padding: 20px;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition:0.3s;
+}
+.custom-card:hover {
+  background-color: rgba(109, 126, 112, 0.05) !important;
+  transform: translateY(-5px);
+}
+
+.card-title-text {
+  font-family: 'JejuMyeongjo';
+  font-weight: 400;
+  font-size: 24px; 
+  color: rgba(0, 0, 0, 0.77);
+  text-transform: uppercase;
+  margin-top: 15px;
+line-height: 48px;
+
+color: rgba(0,0,0,0.77);
+}
+  
+/* تنسيق الصور */
+.custom-card img {
+  width:100%;
+  border-radius:30px;
+  object-fit: cover;
+}

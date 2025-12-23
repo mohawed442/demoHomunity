@@ -38,4 +38,22 @@ btn.addEventListener("click", () => {
     behavior: "smooth"
   });
 });
+//nada
 
+const viewAllBtnbtn 
+= document.getElementById('viewAllBtn');
+
+viewAllBtnbtn.addEventListener('click', function() {
+        
+        alert('تم الضغط على الزر! سيتم عرض جميع المنتجات قريباً.');
+
+        this.style.backgroundColor = '#4A5A4D';
+        
+        console.log('User clicked View All button');
+});
+viewAllBtnbtn.onclick = function() {
+    this.innerHTML = "LOADING...";
+    setTimeout(() => {
+        this.innerHTML = "VIEW ALL";
+},2000);
+};
